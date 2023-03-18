@@ -1,6 +1,6 @@
 import React from 'react';
-import '../assets/styles/pages/homePage.css';
-import '../assets/styles/pages/mobile.css';
+import '../assets/styles/pages/homePage/homePage.css';
+import '../assets/styles/pages/homePage/mobile.css';
 const HomePage = () => {
   return (
     <div className="img__background">

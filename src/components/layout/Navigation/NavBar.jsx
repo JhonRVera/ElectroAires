@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelopeOpenText} from '@fortawesome/free-solid-svg-icons';
 import { faCircleUser} from '@fortawesome/free-solid-svg-icons';
-import './navBar.css';
+import '../../../assets/styles/components/navBar.css';
 import Modal from '../../common/Modal/Modal';
 import ModalContact from '../../common/Modal/ModalContact';
 import ModalLogin from '../../common/Modal/ModalLogin';
