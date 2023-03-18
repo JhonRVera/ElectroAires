@@ -1,0 +1,46 @@
+.footer__content {
+    background-color: rgb(47, 46, 46);
+    position: absolute;
+    top: 94.4rem;
+    width: 100%;
+    color: #fff;
+    display: flex;
+}
+
+.footer__content div {
+    margin: 1rem 2rem;
+    width: 100%;
+    padding: 1rem 2rem ;
+}
+
+.footer__content h3 {
+    font-size: 25px;
+}
+
+.footer__content div ul {
+    list-style: none;
+    font-family: 'Electro Ligth';
+}
+
+.footer__content h3 {
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-bottom: .5rem;
+}
+
+
+@media (max-width: 768px) {
+    .footer__content {
+        top: 108.4rem;
+        display: block;
+    }
+
+    .footer__content div {
+        margin: 1rem 2rem;
+        width: 75%;
+    }
+
+    .footer__content div ul {
+        list-style: none;
+    }
+}
