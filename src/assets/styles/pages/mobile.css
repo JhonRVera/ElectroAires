@@ -1,0 +1,94 @@
+@media (max-width: 768px) {
+    .home__content {
+        text-align: center;
+        padding: 10rem 0;
+    }
+
+    .home__content h1 {
+        color: #fff;
+        font-size: 2.5rem;
+        font-weight: 100;
+        margin-bottom: 2rem;
+    }
+
+    .home__content p {
+        color: #fff;
+        font-size: 1.5rem;
+    }
+
+    .services__content {
+        margin: 3rem 0;
+        height: 20rem;
+        display: block;
+    }
+
+    .services__content h3 {
+        color: #fff;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 100;
+        margin: 1rem;
+    }
+
+    .services__content p {
+        color: #fff;
+        font-size: 15px;
+        margin-top: 1rem;
+    }
+
+    .services__content div {
+        margin: 2.5rem 0;
+        display: flex;
+        width: 100%;
+        border: 1ps solid wheat;
+    }
+
+    .location__content {
+        text-align: center;
+        padding: 0;
+    }
+
+    .location__content h1 {
+        margin: 2rem 0;
+        padding: .5rem;
+        font-size: 2.5rem;
+    }
+
+    .location__content p {
+        text-align: center;
+        padding: 0 1rem;
+        font-size: 1rem;
+    }
+
+    .location__content button {
+        margin: 1rem;
+        padding: 15px;
+        background-color: rgb(206, 32, 38);
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: all ease-in .2s;
+        font-size: 1rem;
+        font-family: 'Electro Ligth';
+        text-transform: uppercase;
+    }
+
+    .scheduled__content {
+        height: 18rem;
+        padding: .7rem 0;
+        margin-top: 5rem;
+    }
+
+    .scheduled__content div {
+        margin: 1.5rem 6rem;
+        text-align: center;
+        display: block;
+        width: 51%;
+    }
+
+    .scheduled__content h3 {
+        text-align: center;
+    }
+
+
+}
