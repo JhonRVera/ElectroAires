@@ -1,0 +1,109 @@
+.modal {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in 0.2s all;
+}
+
+.modal__content {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2rem 5rem;
+    width: 50%;
+}
+
+.modal__content h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.modal__content p {
+    font-size: 1.2rem;
+}
+
+.modal__close {
+    margin: 2rem 0 0 14rem;
+    padding: 15px;
+    background-color: rgb(206, 32, 38);
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all ease-in .2s;
+    font-size: 1rem;
+    font-family: 'Electro Ligth';
+    text-transform: uppercase;
+}
+
+.login__button:hover,
+.modal__close:hover {
+    background-color: #241313;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.field__input input {
+    font-size: 16px;
+    display: block;
+    font-family: 'Electro Ligth', sans-serif;
+    width: 100%;
+    padding: 10px 1px;
+    border: none;
+    border-bottom: 1px solid #891519;
+    outline: none;
+    transition: all .2s;
+}
+
+.login__button {
+    padding: 15px;
+    background-color: rgb(206, 32, 38);
+    border: none;
+    margin-left: 25%;
+    color: white;
+    cursor: pointer;
+    transition: all ease-in .2s;
+    font-size: 1rem;
+    font-family: 'Electro Ligth';
+    text-transform: uppercase;
+}
+
+.btn { 
+    margin: 2rem 0 0 2rem;
+}
+
+@media (max-width: 768px) {
+    .modal__content {
+        padding: 2rem 2rem;
+        width: 90%;
+        height: 90%;
+    } 
+
+    .modal__content h1 {
+        font-size: 1.5rem;
+    }
+    .modal__content p {
+        font-size: 15px;
+    }
+
+    .modal__close {
+        margin: 1.2rem 0 0 4rem;
+        padding: 8px;
+    }
+
+    .modal__login {
+        height: 50%;
+    }
+    .login__button {
+        margin: 2.2rem 0 0 4rem;
+        padding: 8px 17px;
+    }
+}
